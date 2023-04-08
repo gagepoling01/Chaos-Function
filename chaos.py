@@ -9,12 +9,12 @@ def chaos():
         print(x)
 
 # Exercise 1
-# Modify the chaos program using 2.0 in place of 3.9 as the multiplier in the logistic function. 
+# Modify the chaos function using 2.0 in place of 3.9 as the multiplier in the logistic function. 
 # Your modified line of code should look like this:
 #
 # x = 2.0 * x * (1 - x)
 # 
-# Run the program for varius input values and compare the results of those obtained from the original program.
+# Run the function for varius input values and compare the results of those obtained from the original function.
 
 def newchaos():
     print("This is a modified version of a chaotic function, where instead of 3.9, we multiply by 2.0")
@@ -24,7 +24,7 @@ def newchaos():
         print(x)
 
 # Exercise 2
-# Modify the chaos program so that it prints out 20 values instead of 10.
+# Modify the chaos function so that it prints out 20 values instead of 10.
 
 def chaos_output_20():
     print("This version of the chaotic function outputs 20 values, instead of 10.")
@@ -34,8 +34,8 @@ def chaos_output_20():
         print(x)
 
 # Exercise 3
-# Modify the chaos program so that the number of values to print is determined by the user.
-# You will have to add a line near the top of the program to get another value from the user:
+# Modify the chaos function so that the number of values to print is determined by the user.
+# You will have to add a line near the top of the function to get another value from the user:
 #
 # n = eval(input("How many numbers should I print? "))
 #
@@ -50,9 +50,9 @@ def customchaos():
         print(x)
 
 # Exercise 4
-# The calculation performed in the chaos program can be written in a number of ways
-# that are algebraically equivalent. Write a version of the program for each of the
-# following ways of doing the computation. Have your modified program print out 100
+# The calculation performed in the chaos function can be written in a number of ways
+# that are algebraically equivalent. Write a version of the function for each of the
+# following ways of doing the computation. Have your modified function print out 100
 # iterations of the calculation and compare the results when run on the same input.
 #
 # a) 3.9 * x * (1 - x)
